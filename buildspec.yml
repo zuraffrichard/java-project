@@ -15,4 +15,4 @@ phases:
 artifacts:
   files:
     - dist/rectangle.jar
-  name: rectangle-$(date +%y%m%d%H%M%).jar
+  name: rectangle-$(date +%y%m%d%H%M).jar
