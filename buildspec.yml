@@ -1,7 +1,5 @@
 version: 0.2
-env:
-  variables:
-    BUILD_NUMBER: `date +%y%m%d%H%M%S`
+
 phases:
   install:
     runtime-versions:
@@ -17,4 +15,4 @@ phases:
 artifacts:
   files:
     - dist/rectangle.jar
-  name: rectangle-$BUILD_NUMBER.jar
+  name: rectangle-$(date +%y%m%d%H%M%).jar
