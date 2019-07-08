@@ -1,0 +1,11 @@
+version 0.2
+
+phases:
+  pre_build:
+    commands:
+      - env
+      - ant -f test.xml -v
+  build:
+    commands:
+      - ant -f build.xml -v
+      - ls dist/*
