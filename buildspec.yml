@@ -12,3 +12,8 @@ phases:
     commands:
       - ant -f build.xml -v
       - ls dist/*
+
+artifacts:
+  files:
+    - dist/rectangle.jar
+  name: myApp.jar-$(date +%Y-%m-%d)
