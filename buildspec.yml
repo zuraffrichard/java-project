@@ -13,9 +13,8 @@ phases:
   build:
     commands:
       - ant -f build.xml -v
-      - ls dist/*
 
 artifacts:
   files:
     - dist/rectangle.jar
-  name: rectangle-$Env:BUILD_NUMBER.jar
+  name: rectangle-$(BUILD_NUMBER).jar
