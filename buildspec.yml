@@ -17,4 +17,4 @@ phases:
 artifacts:
   files:
     - dist/rectangle.jar
-  name: rectangle-$(BUILD_NUMBER).jar
+  name: rectangle-$BUILD_NUMBER.jar
